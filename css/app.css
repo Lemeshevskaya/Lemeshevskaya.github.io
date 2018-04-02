@@ -1,0 +1,202 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/*header*/
+.head {
+   background: url('../images/Background.png') no-repeat center top / cover;
+    padding-bottom: 180px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo {
+    display: block;
+    background: url("../images/foliac-logo.png") no-repeat;
+    height: 100px;
+    width: 176px;
+    margin-top: 35px;
+    float: left;
+}
+.menu {
+    float: right;
+    margin-top: 78px;
+}
+.pmenu {
+    display: block;
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-family: "Lato bold", sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+    position: relative;
+}
+.item:after {
+    content: "/";
+    color: #58626a;
+    position: absolute;
+    margin-left: 50px;
+}
+.titelf {
+    font-family: "Big John", sans-serif;
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 155px;
+}
+.titels {
+    font-family: "Slim Joe", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 26px;
+}
+.button_head {
+    background: transparent;
+    border: 2px solid #48bf72;
+    border-radius: 3px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #48bf72;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 11px 20px;
+    display: block;
+}
+/*contact form*/
+.titel {
+    font-family: "Big John" , sans-serif ;
+    font-size: 26px;
+    color: #48bf72;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 51px 0 56px 0;
+}
+.contact_form{
+    margin: 0 0 50px 220px;
+}
+.icon {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    display: inline-block;
+}
+.img {
+    position: absolute;
+}
+.img_user {
+    margin: 12px 0 0 12px;
+}
+.input {
+    background-color: #f1f1f1;
+    border: solid #3c4955;
+    border-width: 2px 2px 2px 50px;
+    border-radius: 3px;
+    font-family: "Lato" , sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a6a5a5;
+    padding-left: 22px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.icon:after{
+    content: "";
+    display: inline-block;
+    border: 6px solid transparent;
+    border-left: 6px solid #3c4955;
+    left: 50px;
+    position: absolute;
+}
+.icon_line:after {
+    top: calc(50% - 6px);
+}
+.img_mail {
+    margin: 15px 0 0 15px;
+}
+.icon:first-child {
+    margin-right: 30px;
+}
+.line {
+    margin-bottom: 30px;
+}
+.mes {
+    position: relative;
+    height: 231px;
+    width: 702px;
+}
+.input_mes {
+    padding-top: 15px;
+    resize: none;
+}
+.img_mes {
+    margin: 15px 0 0 16px;
+ }
+.icon_mes:after {
+    top: 18px;
+}
+.button_form {
+    background: #48bf72;
+    color: #ffffff;
+    border-radius: 3px;
+    display: block;
+    border-style: none;
+    width: 700px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+/*footer*/
+.down {
+    background: #3c4955;
+    height: 200px;
+}
+.madein {
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    float: left;
+    padding-top: 92px;
+}
+.cosial_icon {
+    display: block;
+    margin-top: 72px;
+    float: right;
+}
+.cosialicon {
+    float: left;
+ }
+.pic {
+    float: left;
+    background: url("../images/social.png") no-repeat;
+    height: 65px;
+    width: 65px;
+    margin-left: 10px;
+}
+.twitter {
+    background-position: 0 0;
+}
+.linkedin {
+    background-position: -87px 0;
+}
+.dribble {
+     background-position: -177px 0;
+}
+.behance {
+    background-position: -267px 0;
+}
