@@ -1,0 +1,91 @@
+/*contact form*/
+.titel_form {
+    font-family: "Big John" , sans-serif ;
+    font-size: 26px;
+    color: #48bf72;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 51px 0 56px 0;
+}
+.contact_form{
+    margin: 0 0 50px 220px;
+}
+.icon {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    display: inline-block;
+}
+.img {
+    position: absolute;
+}
+.img_user {
+    margin: 12px 0 0 12px;
+}
+.input {
+    background-color: #f1f1f1;
+    border: solid #3c4955;
+    border-width: 2px 2px 2px 50px;
+    border-radius: 3px;
+    font-family: "Lato" , sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a6a5a5;
+    padding-left: 22px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.icon:after{
+    content: "";
+    display: inline-block;
+    border: 6px solid transparent;
+    border-left: 6px solid #3c4955;
+    left: 50px;
+    position: absolute;
+}
+.icon_line:after {
+    top: calc(50% - 6px);
+}
+.img_mail {
+    margin: 15px 0 0 15px;
+}
+.icon:first-child {
+    margin-right: 30px;
+}
+.line {
+    margin-bottom: 30px;
+}
+.mes {
+    position: relative;
+    height: 231px;
+    width: 702px;
+}
+.input_mes {
+    padding-top: 15px;
+    resize: none;
+}
+.img_mes {
+    margin: 15px 0 0 16px;
+}
+.icon_mes:after {
+    top: 18px;
+}
+.button_form {
+    background: #48bf72;
+    color: #ffffff;
+    border-radius: 3px;
+    display: block;
+    border-style: none;
+    width: 702px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}

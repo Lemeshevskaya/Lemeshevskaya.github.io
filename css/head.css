@@ -1,0 +1,62 @@
+/*head*/
+.head {
+    background: url('../images/Background.png') no-repeat center top / cover;
+    padding-bottom: 180px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo {
+    display: block;
+    background: url("../images/foliac-logo.png") no-repeat;
+    height: 100px;
+    width: 176px;
+    margin-top: 35px;
+    float: left;
+}
+.menu {
+    float: right;
+    margin-top: 78px;
+}
+.pmenu {
+    display: block;
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-family: "Lato bold", sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+    position: relative;
+}
+.item:after {
+    content: "/";
+    color: #58626a;
+    position: absolute;
+    margin-left: 50px;
+}
+.titel_f {
+    font-family: "Big John", sans-serif;
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 155px;
+}
+.titel_s {
+    font-family: "Slim Joe", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 26px;
+}
+.button_head {
+    border: 2px solid #48bf72;
+    color: #48bf72;
+    margin: 50px auto 0 auto;
+    height: 38px;
+    width: 138px;
+    display: block;
+}

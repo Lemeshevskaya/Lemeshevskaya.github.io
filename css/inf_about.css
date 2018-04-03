@@ -1,0 +1,38 @@
+/*about*/
+.about {
+    background: url("../images/men-computer.png") no-repeat;
+    background-size: contain;
+}
+.container_about {
+    background-color: rgba(60, 73, 85, 0.75);
+}
+.inform {
+    float: right;
+    width: 550px;
+    padding: 90px 130px 90px 0;
+    box-sizing: border-box;
+}
+.inform_text {
+    font-family: Lato, sans-serif;
+    color: #fff;
+}
+.inform_name {
+    font-size: 30px;
+    font-weight: bold;
+}
+.inform_job {
+    font-size: 22px;
+    margin-top: 10px;
+}
+.inform_description {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top:40px;
+}
+.button_contact {
+    color: #3c4955;
+    border: 2px solid #3c4955;
+    margin-top: 40px;
+    height: 40px;
+    width: 150px;
+}

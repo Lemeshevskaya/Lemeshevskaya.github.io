@@ -1,0 +1,39 @@
+/*footer*/
+.down {
+    background: #3c4955;
+    height: 200px;
+}
+.made_in {
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    float: left;
+    padding-top: 92px;
+}
+.cosial_icon {
+    display: block;
+    margin-top: 72px;
+    float: right;
+}
+.cosialicon {
+    float: left;
+}
+.pic {
+    float: left;
+    background: url("../images/social.png") no-repeat;
+    height: 65px;
+    width: 65px;
+    margin-left: 10px;
+}
+.twitter {
+    background-position: 0 0;
+}
+.linkedin {
+    background-position: -87px 0;
+}
+.dribble {
+    background-position: -177px 0;
+}
+.behance {
+    background-position: -267px 0;
+}
