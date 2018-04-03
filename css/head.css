@@ -3,11 +3,6 @@
     background: url('../images/Background.png') no-repeat center top / cover;
     padding-bottom: 180px;
 }
-.clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-}
 .logo {
     display: block;
     background: url("../images/foliac-logo.png") no-repeat;

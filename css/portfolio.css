@@ -1,0 +1,57 @@
+.portfolio {
+    height: inherit;
+    background-color: white;
+}
+.boxes {
+    margin-left: 222px;
+}
+.box_menu {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    color: #535e69;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+.box_menu:hover {
+    color: white;
+    background-color: #48bf72;
+}
+.item_block{
+    margin-top: 50px;
+    margin-bottom: 87px;
+}
+.block {
+    display: inline-block;
+
+}
+.block:hover {
+    animation: 1.2s ease-in-out 0s
+    normal none infinite running
+    trambling-animation;
+}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-5deg);
+    }
+    20%, 40% {
+        transform: rotate(5deg);
+    }
+}
+.block_1, .block_3 {
+    float: left;
+}
+.block_2, .block_4 {
+    float: right;
+}
+.block_1, .block_2 {
+    margin-bottom: 40px;
+}
