@@ -17,6 +17,7 @@
     box-sizing: border-box;
     border-radius: 2px;
     margin-left: 15px;
+    cursor: pointer;
 }
 .box_menu:hover {
     color: white;
@@ -27,7 +28,10 @@
     margin-bottom: 87px;
 }
 .block {
-    display: inline-block;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    height: inherit;
 }
 .block_1, .block_3 {
     float: left;
@@ -38,21 +42,56 @@
 .block_1, .block_2 {
     margin-bottom: 40px;
 }
-.block:hover {
-    animation: 1.2s ease-in-out 0s 
-    normal none infinite running 
-    trambling-animation;
+.block_cover {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(72, 191, 114, 0.8);
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    transition: opacity 0.5s linear;
+
 }
-
-@keyframes trambling-animation {
-
-0%, 50%, 100% {
-    transform: rotate(0deg);
+.block_name {
+    margin: auto;
+}
+.block_cover_name {
+    font-family: Lato, sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.block_cover_name1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.block_cover_name2 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+.block:hover .block_cover {
+    opacity: 1;
+    visibility: visible;
+}
+.block_img {
+    border-radius: 8px;
+ }
+.block:hover {
+    animation: trembling-animation 1.2s ease-in-out 0s
+    normal none running;
+}
+@keyframes trembling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
     }
-10%, 30% {
-    transform: rotate(-5deg);
+    10%, 30% {
+        transform: rotate(-1deg);
     }
-20%, 40% {
-    transform: rotate(5deg);
+    20%, 40% {
+        transform: rotate(1deg);
     }
 }

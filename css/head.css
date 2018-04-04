@@ -54,4 +54,10 @@
     height: 38px;
     width: 138px;
     display: block;
+    background: inherit
+}
+.button_head:hover {
+    background: #48bf72;
+    color: inherit;
+    opacity: 0.5;
 }
