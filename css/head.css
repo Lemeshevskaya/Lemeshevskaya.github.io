@@ -3,7 +3,7 @@
     background: url('../images/Background.png') no-repeat center top / cover;
     padding-bottom: 180px;
 }
-.logo {
+.logo_head {
     display: block;
     background: url("../images/foliac-logo.png") no-repeat;
     height: 100px;
@@ -11,7 +11,7 @@
     margin-top: 35px;
     float: left;
 }
-.menu {
+.menu_head {
     float: right;
     margin-top: 78px;
 }
@@ -31,20 +31,19 @@
     position: absolute;
     margin-left: 50px;
 }
-.titel_f {
+.title_head {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title_f {
     font-family: "Big John", sans-serif;
     font-size: 46px;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
     margin-top: 155px;
 }
-.titel_s {
+.title_s {
     font-family: "Slim Joe", sans-serif;
     font-size: 30px;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
     margin-top: 26px;
 }
 .button_head {
@@ -52,7 +51,7 @@
     color: #48bf72;
     margin: 50px auto 0 auto;
     height: 38px;
-    width: 138px;
+    width: 140px;
     display: block;
     background: inherit
 }

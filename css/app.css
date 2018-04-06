@@ -28,6 +28,9 @@
     font-weight: bold;
     font-style: normal;
 }
+.wight_layout {
+    width: 1920px;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
