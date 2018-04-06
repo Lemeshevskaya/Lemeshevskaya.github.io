@@ -9,6 +9,10 @@
     float: left;
     margin: 92px 0 92px 0;
 }
+.link{
+    text-decoration: none;
+    color: white;
+}
 .cosial_icon {
     display: block;
     margin-top: 72px;
